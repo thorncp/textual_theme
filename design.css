@@ -1,0 +1,330 @@
+/* Basic Body Structure */
+
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+  word-wrap: break-word;
+}	
+
+body {
+	color: #E6E1DC;
+	height: 100%;
+ 	z-index: 100;
+	font-size: 13px;
+	overflow: hidden;
+	overflow-y: visible;
+	background-color: rgb(43,43,43);
+	font-family: "Monaco";
+}
+
+body div#body_home {
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 100;
+	max-height: 97.5%;
+	position: absolute;
+}
+
+body div#body_home div {
+ 	margin-top: -1px;
+}
+
+body div#body_home p {
+	clear: both;
+	position: relative;
+}
+
+/* Time */
+		
+body .time {
+	color: rgb(51, 52, 53);
+	text-indent: 0;
+	word-wrap: normal;
+	white-space: nowrap
+	display: inline-block;
+}
+
+/* Links */
+
+a {
+  color: rgb(109, 156, 190);
+  border-color: #0080FF;
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 1px dotted rgb(109, 156, 190);
+}
+
+/* Topic Bar */
+
+#topic_bar {
+  top: 0;
+  left: 0;
+  right: 0;
+  color: #000;
+  z-index: 400;
+  opacity: 0.95;
+  font-size: 9px;
+  position: fixed;
+  background: #CFD4DD;
+  padding: 2px 0.5em 3px;
+  border-bottom: 1px solid #8387B6;
+  -webkit-box-shadow: 0 1px 5px #777;
+}
+
+#topic_bar a {
+  color: #00e;
+  border-color: #00e;
+}
+
+#topic_bar a:hover {
+  color: #0080FF;
+  border-color: #0080FF;
+}
+
+/* Images */
+
+body a img {
+    border: 0;
+}
+
+body img {
+    display: block;
+    max-width: 95%;
+    padding-top: 5px;
+    padding-left: 8px;
+    padding-bottom: 5px;
+}
+
+/* Remember Line */
+
+div[id=mark] {
+  position: relative;
+  z-index: 295;
+  margin-top: -1px;
+  border-bottom: 2px dashed;
+  border-color: rgb(65, 65, 65);
+  -webkit-transition: 0.2s linear;
+}
+
+/* Nickname Colors */
+
+body div[type=privmsg] .sender[type=myself],
+body div[type=action] .sender[type=myself] { 
+	color: #B8DFFF; 
+}
+
+body .sender[type=normal][colornumber='0'] { color: rgb(255, 198, 109); }
+body .sender[type=normal][colornumber='1'] { color: rgb(188, 148, 88); }
+body .sender[type=normal][colornumber='2'] { color: rgb(204, 120, 51); }
+body .sender[type=normal][colornumber='3'] { color: rgb(165, 194, 97); }
+body .sender[type=normal][colornumber='4'] { color: rgb(208, 208, 255); }
+body .sender[type=normal][colornumber='5'] { color: rgb(109, 156, 190); }
+body .sender[type=normal][colornumber='6'] { color: rgb(218, 73, 57); }
+body .sender[type=normal][colornumber='7'] { color: rgb(81, 159, 80); }
+body .sender[type=normal][colornumber='8'] { color: rgb(151, 199, 75); }
+body .sender[type=normal][colornumber='9'] { color: rgb(165, 234, 196); }
+body .sender[type=normal][colornumber='10'] { color: rgb(255, 166, 160); }
+body .sender[type=normal][colornumber='11'] { color: rgb(77, 237, 240); }
+body .sender[type=normal][colornumber='12'] { color: rgb(234, 232, 126); }
+body .sender[type=normal][colornumber='13'] { color: rgb(255, 187, 88); }
+body .sender[type=normal][colornumber='14'] { color: rgb(237, 215, 173); }
+body .sender[type=normal][colornumber='15'] { color: rgb(192, 131, 242); }
+
+/* NOTICE/CTCP/WALLOPS */
+
+body div[type=notice],
+body div[type=ctcp],
+body div[type=wallops] {
+	color: #f00;
+	z-index: 191;
+	background: #400;
+	position: relative;
+ 	padding: 2px 5px 2px 5px;
+	border-top: 1px solid #811;
+	border-bottom: 1px solid #811;
+}
+
+body div[type=notice] .sender {
+	color: #f00;
+	font-weight: 700;
+}
+
+/* PRIVMSG */
+
+body div[type=privmsg] {
+ 	padding: 2px 5px 2px 5px;
+}
+
+/*body div[type=privmsg][highlight=true] .message,
+body div[type=action][highlight=true] .message,
+body div[type=privmsg][highlight=true] .sender,
+body div[type=action][highlight=true] .sender{
+  font-weight: normal;
+  color: rgb(204, 120, 51) !important;
+}*/
+
+/*body div[type=privmsg][highlight=true] .sender:before,
+body div[type=action][highlight=true] .sender:before {
+  color: rgb(218, 73, 57) !important;
+  content: "★";
+  font-size: 0.9em;
+  margin-right: 0.4em;
+}*/
+
+body div[type=privmsg] .message {
+	color: #aaa;
+}
+
+body div[type=privmsg]:hover {
+	background: rgb(51, 52, 53);
+}
+
+body div[type=privmsg]:hover .time{
+	color: rgb(125, 125, 125);
+}
+
+body div[type=privmsg][highlight=true] .time,
+body div[type=action][highlight=true] .time {
+  color: rgba(218, 73, 57, 0.5);
+}
+
+body div[type=privmsg][highlight=true] .sender,
+body div[type=action][highlight=true] .sender {
+  color: rgba(218, 73, 57, 1);
+}
+
+body div[type=privmsg][highlight=true]:hover .time,
+body div[type=action][highlight=true]:hover .time {
+  color: rgb(218, 73, 57);
+}
+
+body div[type=privmsg] p[type=myself] .message {
+	color: #E6E1DC;
+}
+
+/*body div[type=privmsg] .sender {
+  font-weight: 700;
+}*/
+
+/* ACTION */
+
+body div[type=action]  {
+ 	padding: 3px 5px 3px 5px;
+}
+
+body div[type=action] .message {
+	color: #aaa;
+}
+
+body div[type=action] .sender {
+	font-weight: 700;
+}
+
+body div[type=action] p[type=myself] .sender,
+body div[type=action] p[type=myself] .message {
+	color: #B52CF6;
+}
+
+body div[type=action] .sender:before {
+	content: "\2022";
+	font-size: 0.9em;
+	margin-right: 0.4em;
+}
+
+body div[type=action] .sender:after {
+	content: "";
+}
+
+/* REPLY/SYSTEM/ERROR/DCC/DEBUG/INVITE */
+
+body div[type=invite],
+body div[type=reply],
+body div[type=system],
+body div[type=error],
+body div[type=error_reply],
+body div[type=dcc_send_send],
+body div[type=dcc_send_receive],
+body div[type=debug_send],
+body div[type=debug_receive] {
+	color: #777;
+	z-index: 190;
+	background: rgb(42, 42, 42);
+	position: relative;
+ 	padding: 2px 5px 2px 5px;
+	border-top: 1px solid #444;
+	border-bottom: 1px solid #444;
+}
+
+/* GENERAL EVENT */
+
+body div[type=join],
+body div[type=part],
+body div[type=kick],
+body div[type=quit],
+body div[type=kill],
+body div[type=nick],
+body div[type=mode],
+body div[type=website],
+body div[type=topic] {
+ 	padding: 3px 5px 3px 5px;
+  color: #666;
+}
+
+body div[type=join] .message:before {
+	content: "→";
+	color: #0c0;
+	margin-right: 3px;
+}
+
+body div[type=kick] .message:before,
+body div[type=part] .message:before,
+body div[type=quit] .message:before {
+	content: "←";
+	color: #e00;
+	margin-right: 3px;
+}
+
+body div[type=nick] .message:before {
+	content:"•";
+	color: #0c0;
+	margin-right: 3px;
+}
+
+/* mIRC Color Codes */
+
+.effect[color-number='0'] { color: rgb(255, 198, 109); }
+.effect[color-number='1'] { color: rgb(188, 148, 88); }
+.effect[color-number='2'] { color: rgb(204, 120, 51); }
+.effect[color-number='3'] { color: rgb(165, 194, 97); }
+.effect[color-number='4'] { color: rgb(208, 208, 255); }
+.effect[color-number='5'] { color: rgb(109, 156, 190); }
+.effect[color-number='6'] { color: rgb(218, 73, 57); }
+.effect[color-number='7'] { color: rgb(81, 159, 80); }
+.effect[color-number='8'] { color: rgb(151, 199, 75); }
+.effect[color-number='9'] { color: rgb(165, 234, 196); }
+.effect[color-number='10'] { color: rgb(255, 166, 160); }
+.effect[color-number='11'] { color: rgb(77, 237, 240); }
+.effect[color-number='12'] { color: rgb(234, 232, 126); }
+.effect[color-number='13'] { color: rgb(255, 187, 88); }
+.effect[color-number='14'] { color: rgb(237, 215, 173); }
+.effect[color-number='15'] { color: rgb(192, 131, 242); }
+.effect[bgcolor-number='0'] { background-color: rgb(255, 198, 109); }
+.effect[bgcolor-number='1'] { background-color: rgb(188, 148, 88); }
+.effect[bgcolor-number='2'] { background-color: rgb(204, 120, 51); }
+.effect[bgcolor-number='3'] { background-color: rgb(165, 194, 97); }
+.effect[bgcolor-number='4'] { background-color: rgb(208, 208, 255); }
+.effect[bgcolor-number='5'] { background-color: rgb(109, 156, 190); }
+.effect[bgcolor-number='6'] { background-color: rgb(218, 73, 57); }
+.effect[bgcolor-number='7'] { background-color: rgb(81, 159, 80); }
+.effect[bgcolor-number='8'] { background-color: rgb(151, 199, 75); }
+.effect[bgcolor-number='9'] { background-color: rgb(165, 234, 196); }
+.effect[bgcolor-number='10'] { background-color: rgb(255, 166, 160); }
+.effect[bgcolor-number='11'] { background-color: rgb(77, 237, 240); }
+.effect[bgcolor-number='12'] { background-color: rgb(234, 232, 126); }
+.effect[bgcolor-number='13'] { background-color: rgb(255, 187, 88); }
+.effect[bgcolor-number='14'] { background-color: rgb(237, 215, 173); }
+.effect[bgcolor-number='15'] { background-color: rgb(192, 131, 242); }
