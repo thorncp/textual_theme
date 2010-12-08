@@ -187,23 +187,23 @@ body div[type=privmsg]:hover .time{
 	color: rgb(125, 125, 125);
 }
 
-body div[type=privmsg][highlight=true] .time,
-body div[type=action][highlight=true] .time {
-  color: rgba(218, 73, 57, 0.5);
+body div[type=privmsg][highlight=true] .message {
+  color: rgba(255, 255, 255, 1);
 }
 
-body div[type=privmsg][highlight=true] .sender,
+body div[type=privmsg][highlight=true] .time,
+body div[type=action][highlight=true] .time {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/*body div[type=privmsg][highlight=true] .sender,
 body div[type=action][highlight=true] .sender {
   color: rgba(218, 73, 57, 1);
-}
+}*/
 
 body div[type=privmsg][highlight=true]:hover .time,
 body div[type=action][highlight=true]:hover .time {
-  color: rgb(218, 73, 57);
-}
-
-body div[type=privmsg] p[type=myself] .message {
-	color: #E6E1DC;
+  color: rgba(255, 255, 255, 0.9);
 }
 
 /*body div[type=privmsg] .sender {
@@ -224,10 +224,10 @@ body div[type=action] .sender {
 	font-weight: 700;
 }
 
-body div[type=action] p[type=myself] .sender,
+/*body div[type=action] p[type=myself] .sender,
 body div[type=action] p[type=myself] .message {
-	color: #B52CF6;
-}
+  color: #B52CF6;
+}*/
 
 body div[type=action] .sender:before {
 	content: "\2022";
@@ -276,7 +276,7 @@ body div[type=topic] {
 
 body div[type=join] .message:before {
 	content: "→";
-	color: #0c0;
+	color: rgb(165, 194, 97);
 	margin-right: 3px;
 }
 
@@ -284,13 +284,13 @@ body div[type=kick] .message:before,
 body div[type=part] .message:before,
 body div[type=quit] .message:before {
 	content: "←";
-	color: #e00;
+	color: rgb(218, 73, 57);
 	margin-right: 3px;
 }
 
 body div[type=nick] .message:before {
 	content:"•";
-	color: #0c0;
+	color: #666;
 	margin-right: 3px;
 }
 

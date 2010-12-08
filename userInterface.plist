@@ -19,11 +19,11 @@
 		<key>Unread Color</key>
 		<string>#6D9CBE</string>
 		<key>Active Color</key>
-		<string>#E6E1DC</string>
+		<string>#AAAAAA</string>
 		<key>Inactive Color</key>
 		<string>#ccc</string>
 		<key>Active Color (Selected)</key>
-		<string>#BC9458</string>
+		<string>#EEEEEE</string>
 		<key>Inactive Color (Selected)</key>
 		<string>#eee</string>
 		<key>Gradient</key>
