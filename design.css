@@ -134,6 +134,23 @@ body .sender[type=normal][colornumber='13'] { color: rgb(255, 187, 88); }
 body .sender[type=normal][colornumber='14'] { color: rgb(237, 215, 173); }
 body .sender[type=normal][colornumber='15'] { color: rgb(192, 131, 242); }
 
+body .inline_nickname[colornumber='0'] { color: rgb(255, 198, 109); }
+body .inline_nickname[colornumber='1'] { color: rgb(188, 148, 88); }
+body .inline_nickname[colornumber='2'] { color: rgb(204, 120, 51); }
+body .inline_nickname[colornumber='3'] { color: rgb(165, 194, 97); }
+body .inline_nickname[colornumber='4'] { color: rgb(208, 208, 255); }
+body .inline_nickname[colornumber='5'] { color: rgb(109, 156, 190); }
+body .inline_nickname[colornumber='6'] { color: rgb(218, 73, 57); }
+body .inline_nickname[colornumber='7'] { color: rgb(81, 159, 80); }
+body .inline_nickname[colornumber='8'] { color: rgb(151, 199, 75); }
+body .inline_nickname[colornumber='9'] { color: rgb(165, 234, 196); }
+body .inline_nickname[colornumber='10'] { color: rgb(255, 166, 160); }
+body .inline_nickname[colornumber='11'] { color: rgb(77, 237, 240); }
+body .inline_nickname[colornumber='12'] { color: rgb(234, 232, 126); }
+body .inline_nickname[colornumber='13'] { color: rgb(255, 187, 88); }
+body .inline_nickname[colornumber='14'] { color: rgb(237, 215, 173); }
+body .inline_nickname[colornumber='15'] { color: rgb(192, 131, 242); }
+
 /* NOTICE/CTCP/WALLOPS */
 
 body div[type=notice],
