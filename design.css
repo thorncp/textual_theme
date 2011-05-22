@@ -133,6 +133,22 @@ body .sender[type=normal][colornumber='12'] { color: rgb(234, 232, 126); }
 body .sender[type=normal][colornumber='13'] { color: rgb(255, 187, 88); }
 body .sender[type=normal][colornumber='14'] { color: rgb(237, 215, 173); }
 body .sender[type=normal][colornumber='15'] { color: rgb(192, 131, 242); }
+body .sender[type=normal][colornumber='16'] { color: rgb(255, 198, 109); }
+body .sender[type=normal][colornumber='17'] { color: rgb(188, 148, 88); }
+body .sender[type=normal][colornumber='18'] { color: rgb(204, 120, 51); }
+body .sender[type=normal][colornumber='19'] { color: rgb(165, 194, 97); }
+body .sender[type=normal][colornumber='20'] { color: rgb(208, 208, 255); }
+body .sender[type=normal][colornumber='21'] { color: rgb(109, 156, 190); }
+body .sender[type=normal][colornumber='22'] { color: rgb(218, 73, 57); }
+body .sender[type=normal][colornumber='23'] { color: rgb(81, 159, 80); }
+body .sender[type=normal][colornumber='24'] { color: rgb(151, 199, 75); }
+body .sender[type=normal][colornumber='25'] { color: rgb(165, 234, 196); }
+body .sender[type=normal][colornumber='26'] { color: rgb(255, 166, 160); }
+body .sender[type=normal][colornumber='27'] { color: rgb(77, 237, 240); }
+body .sender[type=normal][colornumber='28'] { color: rgb(234, 232, 126); }
+body .sender[type=normal][colornumber='29'] { color: rgb(255, 187, 88); }
+body .sender[type=normal][colornumber='30'] { color: rgb(237, 215, 173); }
+body .sender[type=normal][colornumber='31'] { color: rgb(192, 131, 242); }
 
 body .inline_nickname[colornumber='0'] { color: rgb(255, 198, 109); }
 body .inline_nickname[colornumber='1'] { color: rgb(188, 148, 88); }
@@ -150,6 +166,22 @@ body .inline_nickname[colornumber='12'] { color: rgb(234, 232, 126); }
 body .inline_nickname[colornumber='13'] { color: rgb(255, 187, 88); }
 body .inline_nickname[colornumber='14'] { color: rgb(237, 215, 173); }
 body .inline_nickname[colornumber='15'] { color: rgb(192, 131, 242); }
+body .inline_nickname[colornumber='16'] { color: rgb(255, 198, 109); }
+body .inline_nickname[colornumber='17'] { color: rgb(188, 148, 88); }
+body .inline_nickname[colornumber='18'] { color: rgb(204, 120, 51); }
+body .inline_nickname[colornumber='19'] { color: rgb(165, 194, 97); }
+body .inline_nickname[colornumber='20'] { color: rgb(208, 208, 255); }
+body .inline_nickname[colornumber='21'] { color: rgb(109, 156, 190); }
+body .inline_nickname[colornumber='22'] { color: rgb(218, 73, 57); }
+body .inline_nickname[colornumber='23'] { color: rgb(81, 159, 80); }
+body .inline_nickname[colornumber='24'] { color: rgb(151, 199, 75); }
+body .inline_nickname[colornumber='25'] { color: rgb(165, 234, 196); }
+body .inline_nickname[colornumber='26'] { color: rgb(255, 166, 160); }
+body .inline_nickname[colornumber='27'] { color: rgb(77, 237, 240); }
+body .inline_nickname[colornumber='28'] { color: rgb(234, 232, 126); }
+body .inline_nickname[colornumber='29'] { color: rgb(255, 187, 88); }
+body .inline_nickname[colornumber='30'] { color: rgb(237, 215, 173); }
+body .inline_nickname[colornumber='31'] { color: rgb(192, 131, 242); }
 
 /* NOTICE/CTCP/WALLOPS */
 
@@ -329,6 +361,22 @@ body div[type=nick] .message:before {
 .effect[color-number='13'] { color: rgb(255, 187, 88); }
 .effect[color-number='14'] { color: rgb(237, 215, 173); }
 .effect[color-number='15'] { color: rgb(192, 131, 242); }
+.effect[color-number='16'] { color: rgb(255, 198, 109); }
+.effect[color-number='17'] { color: rgb(188, 148, 88); }
+.effect[color-number='18'] { color: rgb(204, 120, 51); }
+.effect[color-number='19'] { color: rgb(165, 194, 97); }
+.effect[color-number='20'] { color: rgb(208, 208, 255); }
+.effect[color-number='21'] { color: rgb(109, 156, 190); }
+.effect[color-number='22'] { color: rgb(218, 73, 57); }
+.effect[color-number='23'] { color: rgb(81, 159, 80); }
+.effect[color-number='24'] { color: rgb(151, 199, 75); }
+.effect[color-number='25'] { color: rgb(165, 234, 196); }
+.effect[color-number='26'] { color: rgb(255, 166, 160); }
+.effect[color-number='27'] { color: rgb(77, 237, 240); }
+.effect[color-number='28'] { color: rgb(234, 232, 126); }
+.effect[color-number='29'] { color: rgb(255, 187, 88); }
+.effect[color-number='30'] { color: rgb(237, 215, 173); }
+.effect[color-number='31'] { color: rgb(192, 131, 242); }
 .effect[bgcolor-number='0'] { background-color: rgb(255, 198, 109); }
 .effect[bgcolor-number='1'] { background-color: rgb(188, 148, 88); }
 .effect[bgcolor-number='2'] { background-color: rgb(204, 120, 51); }
@@ -345,3 +393,19 @@ body div[type=nick] .message:before {
 .effect[bgcolor-number='13'] { background-color: rgb(255, 187, 88); }
 .effect[bgcolor-number='14'] { background-color: rgb(237, 215, 173); }
 .effect[bgcolor-number='15'] { background-color: rgb(192, 131, 242); }
+.effect[bgcolor-number='16'] { background-color: rgb(255, 198, 109); }
+.effect[bgcolor-number='17'] { background-color: rgb(188, 148, 88); }
+.effect[bgcolor-number='18'] { background-color: rgb(204, 120, 51); }
+.effect[bgcolor-number='19'] { background-color: rgb(165, 194, 97); }
+.effect[bgcolor-number='20'] { background-color: rgb(208, 208, 255); }
+.effect[bgcolor-number='21'] { background-color: rgb(109, 156, 190); }
+.effect[bgcolor-number='22'] { background-color: rgb(218, 73, 57); }
+.effect[bgcolor-number='23'] { background-color: rgb(81, 159, 80); }
+.effect[bgcolor-number='24'] { background-color: rgb(151, 199, 75); }
+.effect[bgcolor-number='25'] { background-color: rgb(165, 234, 196); }
+.effect[bgcolor-number='26'] { background-color: rgb(255, 166, 160); }
+.effect[bgcolor-number='27'] { background-color: rgb(77, 237, 240); }
+.effect[bgcolor-number='28'] { background-color: rgb(234, 232, 126); }
+.effect[bgcolor-number='29'] { background-color: rgb(255, 187, 88); }
+.effect[bgcolor-number='30'] { background-color: rgb(237, 215, 173); }
+.effect[bgcolor-number='31'] { background-color: rgb(192, 131, 242); }
